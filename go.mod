@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/georgysavva/scany v1.2.2
-	github.com/gojuno/minimock/v3 v3.3.12
+	github.com/gojuno/minimock/v3 v3.1.3
 	github.com/jackc/pgconn v1.14.3
 	github.com/jackc/pgx/v4 v4.18.3
 	github.com/pkg/errors v0.9.1
