@@ -1,4 +1,4 @@
-module commoon
+module github.com/yakostya420/o28_common
 
 go 1.20
 
