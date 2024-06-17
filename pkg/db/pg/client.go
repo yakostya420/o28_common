@@ -1,10 +1,10 @@
 package pg
 
 import (
-	"commoon/pkg/db"
 	"context"
 	"github.com/jackc/pgx/v4/pgxpool"
 	"github.com/pkg/errors"
+	"github.com/yakostya420/o28_common/pkg/db"
 )
 
 type pgClient struct {

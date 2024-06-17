@@ -1,13 +1,13 @@
 package pg
 
 import (
-	"commoon/pkg/db"
-	"commoon/pkg/db/prettier"
 	"context"
 	"fmt"
 	"github.com/jackc/pgconn"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
+	"github.com/yakostya420/o28_common/pkg/db"
+	"github.com/yakostya420/o28_common/pkg/db/prettier"
 	"log"
 
 	"github.com/georgysavva/scany/pgxscan"

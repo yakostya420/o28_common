@@ -1,11 +1,11 @@
 package transaction
 
 import (
-	"commoon/pkg/db"
-	"commoon/pkg/db/pg"
 	"context"
 	"github.com/jackc/pgx/v4"
 	"github.com/pkg/errors"
+	"github.com/yakostya420/o28_common/pkg/db"
+	"github.com/yakostya420/o28_common/pkg/db/pg"
 )
 
 type manager struct {
